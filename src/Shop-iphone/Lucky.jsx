@@ -4,17 +4,17 @@ import "./LuckyWheel.css";
 /* ================== DATA ================== */
 const items = [
   { name: "iPhone 17 prm", weight: 0 },   // rất hiếm
-  { name: "Voucher 500k", weight: 15 },
+  { name: "Lì Xì 500k", weight: 15 },
   { name: "Vali", weight: 3 },
   { name: "Tai nghe", weight: 6 },
   { name: "Sạc dự phòng", weight: 8 },
   { name: "Giỏ quà Tết", weight: 7 },
-  { name: "Pin dự phòng", weight: 8 },
-  { name: "Ốp lưng", weight: 10 },
-  { name: "Voucher 300k", weight: 12 },
-  { name: "Ly nước", weight: 15 },
+  { name: " Sạc dự phòng", weight: 8 },
+  { name: "Lì Xì 200k", weight: ´ },
+  { name: "Lì xì 300k", weight: 12 },
+  { name: "Ly nước", weight: 8 },
   { name: "Ấm siêu tốc", weight: 15 },
-  { name: "Ly nước", weight: 10 },
+  { name: "Ly nước", weight: 7 },
 ];
 
 /* ================== RANDOM BY WEIGHT ================== */
