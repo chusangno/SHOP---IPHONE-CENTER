@@ -10,7 +10,7 @@ const items = [
   { name: "Sạc dự phòng", weight: 8 },
   { name: "Giỏ quà Tết", weight: 7 },
   { name: " Sạc dự phòng", weight: 8 },
-  { name: "Lì Xì 200k", weight: ´ },
+  { name: "Lì Xì 500k", weight: 7 },
   { name: "Lì xì 300k", weight: 12 },
   { name: "Ly nước", weight: 8 },
   { name: "Ấm siêu tốc", weight: 15 },
