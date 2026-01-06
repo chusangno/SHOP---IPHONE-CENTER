@@ -1,0 +1,39 @@
+/* 🌌 glow nhẹ phía sau pháo */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+
+  background: radial-gradient(
+    circle at top center,
+    rgba(255,255,255,0.08),
+    transparent 60%
+  );
+}
+body {
+  background: #fff;
+  overflow-x: hidden;
+}
+
+/* đảm bảo nội dung nằm dưới pháo */
+.app,
+main,
+header,
+section {
+  position: relative;
+  z-index: 2;
+}
+@keyframes soft-shake {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-1px); }
+  100% { transform: translateY(0); }
+}
+
+.banner-item {
+  animation: soft-shake 2.5s ease-in-out infinite;
+}
+.fireworks-active main {
+  filter: drop-shadow(0 0 8px rgba(255,200,255,0.2));
+}

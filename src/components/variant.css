@@ -1,0 +1,92 @@
+
+/* ===== TITLE ===== */
+.variant-box h4 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 8px 0;
+  color: #111827;
+}
+.detail-overlay {
+  width: ;
+}
+
+/* ===== STORAGE ===== */
+.storage-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.storage-item {
+  padding: 8px 4px;
+  border-radius: 8px;
+  border: 1.5px solid #e5e7eb;
+  background: #f9fafb;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+  white-space: nowrap;
+}
+
+.storage-item.active {
+  border-color: #ef4444;
+  background: #fff5f5;
+  color: #ef4444;
+}
+
+/* ===== COLOR ITEM ===== */
+.color-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  align-items: center;
+
+  padding: 8px;
+  border-radius: 10px;
+  border: 1.5px solid #e5e7eb;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+
+
+.color-item.active {
+  border-color: #ef4444;
+  background: #fff5f5;
+}
+
+/* ===== IMAGE ===== */
+.color-item img {
+  width: 32px;
+
+  height: 32px;
+  object-fit: contain;
+  border-radius: 6px;
+  flex-shrink: 0;         /* 👈 KHÔNG ÉP GIẢM */
+}
+
+/* ===== INFO ===== */
+.color-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;           /* 👈 QUAN TRỌNG CHỐNG TRÀN */
+}
+
+.color-info span {
+  font-size: 12px;
+  font-weight: 700;
+  color: #111827;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.color-info strong {
+  font-size: 13px;
+  font-weight: 700;
+  color: #ef4444;
+  white-space: nowrap;
+}
